@@ -1,1 +1,1 @@
-pinit"hello"
+print "hello"
