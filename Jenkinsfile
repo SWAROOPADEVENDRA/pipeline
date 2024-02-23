@@ -11,8 +11,8 @@ Pipeline
                           }
                   stage("Run")
                        {
-                        sh " java demo.java" 
-                        sh "python3 main.py"
+                       sh "python3 main.py"
+                       sh " java demo.java" 
                        }
                       }
                   }
