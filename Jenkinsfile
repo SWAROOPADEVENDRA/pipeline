@@ -7,7 +7,7 @@ pipeline
                         {
                         steps
                             {
-                            git clone "https://github.com/SWAROOPADEVENDRA/pipeline.git"
+                            git "https://github.com/SWAROOPADEVENDRA/pipeline.git"
                             }
                         }
              stage("RUN")
